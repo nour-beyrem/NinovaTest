@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ItComponent } from './it/it.component';
 import { HeaderComponent } from './header/header.component';
 import { PicComponent } from './pic/pic.component';
 import { DatePipe } from '@angular/common';
@@ -15,7 +14,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    ItComponent,
+
     HeaderComponent,
     PicComponent,
     IotComponent
