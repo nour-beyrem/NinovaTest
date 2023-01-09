@@ -9,6 +9,7 @@ import { PicComponent } from './pic/pic.component';
 import { DatePipe } from '@angular/common';
 import { IotComponent } from './iot/iot.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
 
     HeaderComponent,
     PicComponent,
-    IotComponent
+    IotComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
