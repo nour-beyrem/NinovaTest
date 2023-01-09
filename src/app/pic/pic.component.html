@@ -1,0 +1,30 @@
+
+<section>
+  <h1>We all know that Machine Learning in the form of AI technology is continuing to gain popularity in our lives. </h1>
+ <h1> There are a lot of day-to-day scenarios that involve the use of ML in our lives; perhaps we do not pay attention to it: </h1>
+</section>
+
+<section id="exampleml">
+  <div class="row" >
+   <div class="flip-card card-deck" *ngFor="let ml of mls" >
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="{{ml.path}}" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back" >
+          <div class="card-body">
+            <h5 class="card-title">{{ml.name}}</h5>
+            <p class="card-text">{{ml.description}}</p>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+

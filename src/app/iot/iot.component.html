@@ -1,0 +1,31 @@
+
+  <h1> What a better way to understand what technologies</h1>
+    <h1> are using IoT than checking your home,</h1>
+   <h1> where gradually new devices have been entering </h1> <h1>houses to make life easier</h1>
+
+
+<section id="exampliot">
+  <div class="row " >
+
+  <div class="flip-card card-deck" *ngFor="let ml of iots" >
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{{ml.path}}" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back" >
+        <div class="card-body">
+          <h5 class="card-title">{{ml.name}}</h5>
+          <p class="card-text">{{ml.description}}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  </section>
+
+
