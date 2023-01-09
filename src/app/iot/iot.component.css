@@ -68,11 +68,24 @@ h1 {
 section{
   margin-top: 50px;
 }
-
 h1 {
+
+margin-top: 100px;
+
+  color: hsl(221, 74%, 29%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+
+}
+h2{
 
   position: relative;
   padding: 10px;
+  font-size: 30px;
   color: hsl(0, 0%, 68%);
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
@@ -80,7 +93,7 @@ h1 {
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 10s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
 }
 
