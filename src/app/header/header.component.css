@@ -5,3 +5,10 @@
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+
+.nav-link{
+  color:  hsl(221, 63%, 47%);
+}
+
+/* change the color of active or hovered links */
+
